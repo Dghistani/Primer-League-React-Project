@@ -3,7 +3,7 @@ import {
     Link
 } from "react-router-dom";
 import { Card, Button} from 'react-bootstrap'
-import '/Users/dag/Desktop/SEI/Project_2/soccer/src/App.css';
+import '../../App.css';
 export default class Cards extends Component {
     render() {
         return (
