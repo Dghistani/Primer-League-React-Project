@@ -30,12 +30,7 @@ export default class Best extends Component {
                 <div className= "best">
                     {bestofbest}
                 </div>
-                <div className="card">
-                    <Card style={{ width: '18rem' }}>
-                        {/* <Card.Body>                           
-                        </Card.Body> */}
-                    </Card>
-                </div>
+                
             </div>
         )
     }

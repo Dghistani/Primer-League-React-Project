@@ -27,12 +27,7 @@ export default class BestGolies extends Component {
                 <div className= "bestg">
                     {bestofbest}
                 </div>
-                <div className="card">
-                    <Card style={{ width: '18rem' }}>
-                        {/* <Card.Body>                           
-                        </Card.Body> */}
-                    </Card>
-                </div>
+               
             </div>
         )
     }

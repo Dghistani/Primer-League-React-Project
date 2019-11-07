@@ -13,12 +13,12 @@ import "./Back.css"
 export default class App extends Component {
   state = {
     data: [],
-    res: [],
+    res: false,
   }
   componentDidMount() {
     axios.get('https://apiv2.apifootball.com/?action=get_teams&league_id=148&APIkey=92de7aaa81de5ed8cb33704389ff2af0b5e1edd10750e6e089f3ed8219db8bf1')
       .then(res => {
-        this.setState({ data: res.data })
+        this.setState({ data: res.data, res: true})
       })
   }
   render() {
